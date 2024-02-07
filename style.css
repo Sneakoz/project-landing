@@ -2,13 +2,13 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: roboto, sans-serif;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     padding: 25px 200px;
-    font-family: roboto, sans-serif;
     background-color: #1f2937;
 }
 
@@ -35,7 +35,6 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 100px 200px;
-    font-family: roboto, sans-serif;
     background-color: #1f2937;
 }
 
@@ -46,7 +45,7 @@ h1 {
     margin: 0;
 }
 
-p {
+.main-para {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -69,4 +68,58 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: start;
+}
+
+.main2 {
+    padding: 0px 700px 100px 700px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bold;
+    margin: 50px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.boxandtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    height: 175px;
+    width: 175px;
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+}
+
+.main3 {
+    background-color: #e5e7eb;
+    padding: 150px 500px 100px 500px;
+}
+
+.main2-para {
+    text-align: center;
+}
+
+.main3-para {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0;
+}
+
+.author {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: end;
+    margin: 0;
 }
