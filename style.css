@@ -58,3 +58,15 @@ button {
     border: none;
     padding: 8px 26px;
 }
+
+img {
+    width: 1100px;
+}
+
+.main-text {
+    padding-right:70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
